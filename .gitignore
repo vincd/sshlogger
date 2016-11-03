@@ -33,6 +33,8 @@ var/
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
+pip-selfcheck.json
+.Python
 
 # Unit test / coverage reports
 htmlcov/
@@ -81,9 +83,20 @@ celerybeat-schedule
 # virtualenv
 venv/
 ENV/
+bin/
+include/
 
 # Spyder project settings
 .spyderproject
 
 # Rope project settings
 .ropeproject
+
+# remove SSH key
+server.key
+server.key.pub
+
+# remove log files
+ips.txt
+passwords.txt
+paramiko.log
